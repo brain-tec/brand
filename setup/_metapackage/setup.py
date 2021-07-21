@@ -11,11 +11,13 @@ setuptools.setup(
         'odoo14-addon-account_brand',
         'odoo14-addon-analytic_brand',
         'odoo14-addon-brand',
+        'odoo14-addon-brand_external_report_layout',
         'odoo14-addon-product_brand',
         'odoo14-addon-product_brand_multicompany',
         'odoo14-addon-product_brand_social_responsibility',
         'odoo14-addon-product_brand_tag',
         'odoo14-addon-product_brand_tag_secondary',
+        'odoo14-addon-sale_brand',
     ],
     classifiers=[
         'Programming Language :: Python',
