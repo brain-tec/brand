@@ -196,7 +196,6 @@ msgstr ""
 #. module: brand
 #: model:ir.actions.act_window,name:brand.res_brand_act_window
 #: model:ir.ui.menu,name:brand.res_brand_menu
-#: model_terms:ir.ui.view,arch_db:brand.res_brand_kanban_view
 #: model_terms:ir.ui.view,arch_db:brand.res_brand_search_view
 #: model_terms:ir.ui.view,arch_db:brand.res_brand_tree_view
 msgid "Brands"
@@ -289,6 +288,11 @@ msgstr ""
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__child_ids
 msgid "Contact"
+msgstr ""
+
+#. module: brand
+#: model:ir.model.fields,field_description:brand.field_res_brand__contract_ids
+msgid "Contracts"
 msgstr ""
 
 #. module: brand
@@ -707,11 +711,6 @@ msgid "Partner"
 msgstr ""
 
 #. module: brand
-#: model:ir.model.fields,field_description:brand.field_res_brand__contract_ids
-msgid "Partner Contracts"
-msgstr ""
-
-#. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__same_vat_partner_id
 msgid "Partner with same Tax ID"
 msgstr ""
@@ -770,6 +769,11 @@ msgid "Pricelist"
 msgstr ""
 
 #. module: brand
+#: model:ir.model.fields,field_description:brand.field_res_brand__purchase_contract_count
+msgid "Purchase Contracts"
+msgstr ""
+
+#. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__ref
 msgid "Reference"
 msgstr ""
@@ -792,6 +796,11 @@ msgstr ""
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_has_sms_error
 msgid "SMS Delivery error"
+msgstr ""
+
+#. module: brand
+#: model:ir.model.fields,field_description:brand.field_res_brand__sale_contract_count
+msgid "Sale Contracts"
 msgstr ""
 
 #. module: brand
